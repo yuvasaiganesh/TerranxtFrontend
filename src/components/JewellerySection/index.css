@@ -1,0 +1,242 @@
+
+.eachSection{
+    display: flex;
+    background-color: blueviolet;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    min-height:100vh;
+    width:100vw
+}
+.eachSectionHeading{
+    font-size:20px;
+    color:white;
+    font-family: cursive;
+}
+img{
+    height:150px;
+    width:150px
+}
+ul{
+    width:80vw;
+    display: flex;
+    
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+   
+}
+li{
+    width:70vw;
+    display: flex;
+    flex-direction: column;
+    background-color:peachpuff;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 10px;
+    border-radius:10px;
+    box-shadow: 2px 2px 2px ;
+   
+
+}
+.contentSection{
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  width:50vw;
+  
+}
+.heading{
+    font-size:15px;
+}
+.para{
+    font-size:12px;
+}
+.priceButton{
+    background-color: orangered;
+    color:white;
+    border-radius: 5px;
+    border:none;
+    text-align: center;
+    height:40px;
+    width:150px;
+    font-size: 15px;
+}
+
+
+@media screen and (min-width:300px){
+
+.eachSectionHeading{
+    font-size:20px;
+    
+}
+img{
+    height:200px;
+    width:200px
+}
+ul{
+    width:90vw;
+    display: flex;
+   flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+   
+}
+li{
+    width:70vw;
+    display: flex;
+    flex-direction: column;
+    background-color:peachpuff;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 10px;
+    border-radius:10px;
+    box-shadow: 2px 2px 2px ;
+   
+
+}
+.contentSection{
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  width:60vw;
+  
+}
+.heading{
+    font-size:15px;
+}
+.para{
+    font-size:12px;
+}
+.priceButton{
+    background-color: orangered;
+    color:white;
+    border-radius: 5px;
+    border:none;
+    text-align: center;
+    height:40px;
+    width:150px;
+    font-size: 15px;
+}
+}
+
+@media screen and (min-width:700px){
+   
+    .eachSectionHeading{
+        font-size:40px;
+       
+    }
+    img{
+        height:180px;
+        width:200px
+    }
+    ul{
+        width:100vw;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+       
+    }
+    li{
+        width:40vw;
+        display: flex;
+        flex-direction: row;
+        background-color:peachpuff;
+        justify-content: space-between;
+        margin: 5px;
+        padding: 10px;
+        border-radius:10px;
+        box-shadow: 2px 2px 2px ;
+       
+    
+    }
+    .contentSection{
+      padding: 10px;
+      display: flex;
+      flex-direction: column;
+      
+      width:25vw;
+      
+    }
+    .heading{
+        font-size:13px;
+    }
+    .para{
+        font-size:10px;
+    }
+    .priceButton{
+        background-color: orangered;
+        color:white;
+        border-radius: 5px;
+        border:none;
+        text-align: center;
+        height:40px;
+        width:150px;
+        font-size: 15px;
+    }
+    }
+
+    @media screen and (min-width:900px){
+        .eachSection{
+            display: flex;
+            background-color: blueviolet;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+            min-height:100vh
+        }
+        .eachSectionHeading{
+            font-size:30px;
+            color:white;font-family: cursive;
+        }
+        img{
+            height:200px;
+            width:200px
+        }
+        ul{
+            width:90vw;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+           
+        }
+        li{
+            width:40vw;
+            display: flex;
+            background-color:peachpuff;
+            justify-content: space-between;
+            margin: 10px;
+            padding: 10px;
+            border-radius:10px;
+            box-shadow: 2px 2px 2px ;
+           
+        
+        }
+        .contentSection{
+          padding: 10px;
+          display: flex;
+          flex-direction: column;
+          width:25vw;
+          
+        }
+        .heading{
+            font-size:15px;
+        }
+        .para{
+            font-size:12px;
+        }
+        .priceButton{
+            background-color: orangered;
+            color:white;
+            border-radius: 5px;
+            border:none;
+            text-align: center;
+            height:40px;
+            width:150px;
+            font-size: 15px;
+        }
+        }

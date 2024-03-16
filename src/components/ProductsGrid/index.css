@@ -1,0 +1,133 @@
+.productSection{
+    width:100vw;
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+   
+    background-image: url("https://th.bing.com/th/id/R.f8d791b10f5851b8559d0c6c2e3b0cad?rik=IaLFdIMPaqWVig&riu=http%3a%2f%2fwallpapercave.com%2fwp%2f1PFHyYy.jpg&ehk=wGK%2fdGVMk8JR72njjsnS8XHSUKlwDwuc3Yh3NraS5Dk%3d&risl=&pid=ImgRaw&r=0");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+}
+.buttonSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width:90vw;
+    height:40vh;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px;
+
+}
+.firstSection{
+    display: flex;
+    justify-content: space-between;
+   
+    width:80vw
+    
+
+}
+button{
+    height:50px;
+    width:35vw;
+    border-radius: 10px;
+    font-size:10px;
+    background-color: orangered;
+    border: none;
+    color: white;
+
+}
+.mainHeading{
+    color:white;
+    font-family: cursive;
+    font-size: 15px;
+}
+@media screen and (min-width:300px){
+
+.buttonSection{
+   
+    width:80vw;
+    height:40vh;
+    
+
+}
+.firstSection{
+
+   
+    width:70vw
+    
+
+}
+button{
+    
+    width:30vw;
+    
+    font-size:13px;
+ 
+
+}
+.mainHeading{
+    font-size: 25px;
+}
+}
+@media screen and (min-width:550px){
+   
+    .buttonSection{
+       
+        width:70vw;
+        
+    
+    }
+    .firstSection{
+        display: flex;
+        justify-content: space-between;
+       
+        width:60vw
+        
+    
+    }
+    button{
+        
+        width:25vw;
+        border-radius: 10px;
+        font-size:16px;
+        ;
+    
+    }
+    .mainHeading{
+        font-size: 30px;
+    }
+}
+
+@media screen and (min-width:900px){
+   
+    .buttonSection{
+       
+        width:50vw;
+        
+    
+    }
+    .firstSection{
+        display: flex;
+        justify-content: space-between;
+       
+        width:40vw
+        
+    
+    }
+    button{
+        
+        width:16vw;
+        border-radius: 10px;
+        font-size:16px;
+        ;
+    
+    }
+    .mainHeading{
+        font-size: 40px;
+    }
+}

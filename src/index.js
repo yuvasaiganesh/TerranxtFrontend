@@ -3,11 +3,14 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import {WrappedContext} from "./Context/FirstContext"
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <WrappedContext>
     <App />
+    </WrappedContext>
   </React.StrictMode>
 );
 
